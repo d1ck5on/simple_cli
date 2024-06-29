@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -fsanitize=memory -fsanitize-recover=all CMakeFiles/tests.dir/test_tokenizer.cpp.o CMakeFiles/tests.dir/test_parameter.cpp.o CMakeFiles/tests.dir/test_program_parameters.cpp.o -o tests  lib/Catch2/src/libCatch2Main.a libsimple_cli.a lib/Catch2/src/libCatch2.a 

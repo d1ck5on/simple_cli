@@ -1,3 +1,5 @@
 .vscode/*
 build/*
 test/build/*
+test/asan_build/*
+test/msan_build/*

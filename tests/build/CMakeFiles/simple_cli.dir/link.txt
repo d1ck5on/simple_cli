@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsimple_cli.a CMakeFiles/simple_cli.dir/home/d1ck50n/projects/simple_cli/src/tokenizer.cpp.o CMakeFiles/simple_cli.dir/home/d1ck50n/projects/simple_cli/src/parameter.cpp.o CMakeFiles/simple_cli.dir/home/d1ck50n/projects/simple_cli/src/program_parameters.cpp.o CMakeFiles/simple_cli.dir/home/d1ck50n/projects/simple_cli/src/errors.cpp.o
+/usr/bin/ranlib libsimple_cli.a

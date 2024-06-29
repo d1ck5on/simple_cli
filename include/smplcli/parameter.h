@@ -64,7 +64,7 @@ private:
         if constexpr (std::is_same_v<TValue, bool>) {
             flags_.is_flag = true;
         }
-    };
+    }
 
     struct AssignValueFromString {
         void operator()(std::string& obj);
@@ -84,7 +84,7 @@ private:
 
     struct ParameterInfo {
         ParameterType parameter_type_;
-        std::string help_;
+        std::string help_ = "";
     };
 
     ParameterInfo parameter_info_;

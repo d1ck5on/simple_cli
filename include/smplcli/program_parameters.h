@@ -68,7 +68,7 @@ public:
                 return *arg_it;
             }
         }
-    };
+    }
 
     std::string ConstructHelp();
     
@@ -118,7 +118,7 @@ private:
     struct ProgramInfo {
         std::string name_;
         std::string version_;
-        std::string description_;
+        std::string description_ = "";
     };
 
     ProgramInfo program_info_;
