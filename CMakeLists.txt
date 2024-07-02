@@ -5,7 +5,8 @@ project(simple_cli
         DESCRIPTION "Simple argument parser for C++"
         LANGUAGES CXX)
         
-option(SMPLCLI_BUILD_TESTS "Build simple_cli tests" OFF)
+option(SMPLCLI_BUILD_TESTS "Build simple_cli tests" ON)
+option(SMPLCLI_BUILD_EXAMPLES "Build simple_cli examples" ON)
 
 add_library(simple_cli 
             src/tokenizer.cpp
@@ -17,4 +18,8 @@ target_include_directories(simple_cli PUBLIC include/)
 
 if(SMPLCLI_BUILD_TESTS)
 add_subdirectory(tests)
+endif()
+
+if(SMPLCLI_BUILD_EXAMPLES)
+add_subdirectory(examples)
 endif()

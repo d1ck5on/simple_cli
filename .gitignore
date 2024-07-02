@@ -3,3 +3,4 @@ build/*
 tests/build/*
 tests/asan_build/*
 tests/msan_build/*
+examples/build/*

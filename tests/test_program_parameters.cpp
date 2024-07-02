@@ -45,7 +45,7 @@ TEST_CASE("Add Parameter") {
 
     program.AddParameter<int>(Parameter::ParameterType::Option, "--number");
     program.AddParameter<std::string>(Parameter::ParameterType::Option, "--string");
-    program.AddParameter<float>(Parameter::ParameterType::Option, "-f");
+    program.AddParameter<float>(Parameter::ParameterType::Option, "-f", "--float");
     program.AddParameter<bool>(Parameter::ParameterType::Option, "--bool");
 
     Cmd cmd("./main --number=10 --string abcd -f 15.0 --bool 1337 lalala 20.4");
